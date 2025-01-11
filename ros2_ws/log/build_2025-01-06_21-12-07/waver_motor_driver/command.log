@@ -1,0 +1,4 @@
+Invoking command in '/ros2_ws/build/waver_motor_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros2_ws/src/waver_motor_driver -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/waver_motor_driver
+Invoked command in '/ros2_ws/build/waver_motor_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros2_ws/src/waver_motor_driver -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/waver_motor_driver
+Invoking command in '/ros2_ws/build/waver_motor_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/waver_motor_driver -- -j2 -l2
+Invoked command in '/ros2_ws/build/waver_motor_driver' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/waver_motor_driver -- -j2 -l2

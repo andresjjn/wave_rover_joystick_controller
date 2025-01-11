@@ -1,0 +1,10 @@
+[0.009s] Invoking command in '/ros2_ws/build/waver_motor_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/waver_motor_driver -- -j2 -l2
+[0.040s] [ 50%] [32mBuilding CXX object CMakeFiles/motor_controller_node.dir/src/motor_controller_node.cpp.o[0m
+[0.166s] [01m[K/ros2_ws/src/waver_motor_driver/src/motor_controller_node.cpp:12:14:[m[K [01;31m[Kfatal error: [m[Ki2c/smbus.h: No such file or directory
+[0.166s]    12 |     #include [01;31m[K<i2c/smbus.h>[m[K
+[0.166s]       |              [01;31m[K^~~~~~~~~~~~~[m[K
+[0.166s] compilation terminated.
+[0.167s] gmake[2]: *** [CMakeFiles/motor_controller_node.dir/build.make:76: CMakeFiles/motor_controller_node.dir/src/motor_controller_node.cpp.o] Error 1
+[0.167s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motor_controller_node.dir/all] Error 2
+[0.169s] gmake: *** [Makefile:146: all] Error 2
+[0.170s] Invoked command in '/ros2_ws/build/waver_motor_driver' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/waver_motor_driver -- -j2 -l2
